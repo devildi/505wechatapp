@@ -1,0 +1,12 @@
+<!--pages/list/list.wxml-->
+<view class='container'>
+  <block wx:for="{{orders}}" wx:key="order._id" wx:for-item="order">
+    <view class='innerContainer' catchtap='switchDetial' id="{{order._id}}" data-userId="{{order.user._id}}">
+      <view class='left'>{{order.createAt}}</view>
+      <view class='right'>{{order.user.name}}</view>
+    </view>
+  </block>
+  <view wx:if="{{done}}" class='indexBottom'>
+    Powered By WUDI@2017
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class='indexContainer'>
+  <image class="img" src="{{Url}}"></image>
+  <text class='indexTitleText'>辽台运维中心</text>
+  <view wx:if="{{!user}}" class='indexInputContainer'>
+    <input placeholder="工号" auto-focus bindinput="bindinputUser"/>
+    <input placeholder="密码" password auto-focus bindinput="bindinputCode"/>
+    <button open-type="contact" catchtap="log">登录</button>
+  </view>
+  <view wx:if="{{user}}" class='indexInputContainer'>
+    <button open-type="contact" catchtap="log2">点击进入</button>
+  </view>
+  <view class='indexBottom'>Powered By WUDI@2017</view>
+</view>

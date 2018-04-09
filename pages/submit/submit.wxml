@@ -1,0 +1,14 @@
+<!--pages/submit/submit.wxml-->
+<view class='container'>
+  <view class='innerContainer'>
+    <textarea 
+      placeholder='电脑蓝屏/40米网线' 
+      show-confirm-bar
+      placeholder-style="padding: 10px"
+      bindinput='bindinput'
+      value='{{content}}'
+    >
+    </textarea>
+    <button open-type="contact" catchtap="submit">提交申请</button> 
+  </view>
+</view>

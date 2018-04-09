@@ -1,0 +1,25 @@
+<!--pages/detail/detail.wxml-->
+<view class='container'>
+  <image class="avata" src="{{Url}}"></image>
+  <view class='innerContainer'>
+    <view class='left'>姓名：</view>
+    <view class='right'>{{user.name}}</view>
+  </view>
+  <view class='innerContainer'>
+    <view class='left'>工号：</view>
+    <view class='right'>{{user.employeeID}}</view>
+  </view>
+  <view class='innerContainer'>
+    <view class='left'>电话：</view>
+    <view class='right'>{{user.phoneNum}}</view>
+  </view>
+  <view class='innerContainer'>
+    <view class='left'>部门：</view>
+    <view class='right'>{{user.department}}</view>
+  </view>
+  <view class='innerContainer'>
+    <view class='left'>需求：</view>
+    <view class='right'>{{order.request}}</view>
+  </view>
+  <view class='indexBottom'>Powered By WUDI@2017</view>
+</view>

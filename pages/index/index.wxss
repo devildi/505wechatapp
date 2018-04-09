@@ -1,0 +1,34 @@
+/* index.wxss */
+.img{
+	height: 400rpx;
+	width: 400rpx;
+}
+.indexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indexBottom{
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 10px;
+  color:gainsboro;
+}
+.indexTitleText{
+  height: 30px;
+  line-height: 30px;
+}
+.indexInputContainer{
+  width: 65%;
+}
+button, input{
+  height: 35px;
+  line-height: 35px;
+  margin-top: 10rpx;
+}
+button{
+  background-color: #ffd700;
+}

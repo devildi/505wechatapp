@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/user/user",
+    "pages/submit/submit",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffd700",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "Gold",
+    "list": [
+      {
+        "pagePath": "pages/submit/submit",
+        "text": "报修申请",
+        "iconPath": "pic/post.png",
+        "selectedIconPath": "pic/post.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "待处理列表",
+        "iconPath": "pic/list.png",
+        "selectedIconPath": "pic/list.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人信息",
+        "iconPath": "pic/me.png",
+        "selectedIconPath": "pic/me.png"
+      }
+    ]
+  }
+}

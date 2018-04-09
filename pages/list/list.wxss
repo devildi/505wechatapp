@@ -1,0 +1,30 @@
+/* pages/list/list.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.innerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 150rpx;
+  border: 1px solid #f0f0f0;
+  box-shadow: inset 0px 0px 100rpx #f0f0f0;
+}
+.left, .right{
+  font-family: Microsoft YaHei;
+  font-size: 50rpx;
+  line-height: 150rpx;
+  color: lightslategray;
+}
+.left{
+  padding-left: 10px;
+}
+.right{
+  padding-right: 10px;
+}
+.indexBottom{
+  text-align: center;
+  font-size: 10px;
+  color:gainsboro;
+}

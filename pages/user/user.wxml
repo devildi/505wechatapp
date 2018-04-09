@@ -1,0 +1,12 @@
+<!--pages/user/user.wxml-->
+<view class='indexContainer'>
+  <image class="avata" src="{{url}}"></image>
+  <view class='indexInputContainer'>
+    <view class='input'>{{user.name}}</view>
+    <view class='input'>{{user.employeeID}}</view>
+    <input placeholder='部门' value="{{user.department}}"auto-focus bindinput='bindinputdepartment'/>
+    <input placeholder="电话" value="{{user.phoneNum}} "auto-focus bindinput='bindinputphoneNum'/>
+    <input placeholder="办公地址" value="{{user.address}} "auto-focus bindinput='bindinputaddress'/>
+    <button open-type="contact" catchtap='change'>保存修改</button>
+  </view>
+</view>
